@@ -1,0 +1,16 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+}
+
+.head1 {
+    background-color: azure;
+}
+
+#head2 {
+    background-color: aquamarine;
+    color:antiquewhite
+}
