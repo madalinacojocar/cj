@@ -14,3 +14,28 @@ h1 {
     background-color: aquamarine;
     color:antiquewhite
 }
+div.nav-bar {
+    background-color: antiquewhite;
+    padding: 30px;
+    text-align:center;
+}
+
+.nav-bar {
+    text-transform: uppercase;
+}
+
+div.content {
+    background-color: beige;
+    padding: 30px;
+}
+
+.content > h1 {
+    text-align: center;
+    background-color: rgb(255, 251, 246);
+    padding:20px;
+}
+
+p + p {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
