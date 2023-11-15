@@ -14,6 +14,7 @@ h1 {
     background-color: aquamarine;
     color:antiquewhite
 }
+
 div.nav-bar {
     background-color: antiquewhite;
     padding: 30px;
@@ -38,4 +39,29 @@ div.content {
 p + p {
     background-color: blanchedalmond;
     padding: 20px;
+}
+
+
+
+
+p:hover {
+    color:aqua;
+    font-weight: bold;
+}
+
+p::before {
+    content:'hello';
+    color:blueviolet;
+    font-weight: bold;
+}
+
+p::after {
+    content: 'bye';
+    color:yellow;
+    font-weight: bold;
+}
+
+p::selection {
+    background-color: bisque;
+    color:black;
 }
