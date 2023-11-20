@@ -1,20 +1,3 @@
-body {
-    background-color: blanchedalmond;
-}
-
-h1 {
-    text-align: center;
-}
-
-.head1 {
-    background-color: azure;
-}
-
-#head2 {
-    background-color: aquamarine;
-    color:antiquewhite
-}
-
 div.nav-bar {
     background-color: antiquewhite;
     padding: 30px;
@@ -64,4 +47,38 @@ p::after {
 p::selection {
     background-color: bisque;
     color:black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(63, 27, 3);
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner {
+    background-color: rgb(208, 197, 192);
+    height: 200px;
+}
+
+.content {
+    background-color: rgb(193, 174, 144);
+    height: 400px;
+}
+
+.footer {
+    background-color: rgb(147, 124, 96);
+    height: 20px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(70%) invert(50%);
 }
