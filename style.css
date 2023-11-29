@@ -81,4 +81,38 @@ p::selection {
 img {
     width: 100%;
     filter: grayscale(70%) invert(50%);
+    
+}
+.visible {
+    visibility: visible;
+
+}
+.hidden {
+    visibility: hidden;
+}
+.op_1 {
+    opacity: 1;
+}
+.op_o {
+    opacity: 0;
+}
+.op_05 {
+    opacity: 0.5;
+}
+
+.none {
+    display: none;
+    font-weight: bold;
+}
+.inline {
+    display: inline;
+    font-weight: bold;
+}
+.block {
+    display: block;
+    font-weight: bold;
+}
+h3 {
+    background-color: bisque;
+    text-align: center;
 }
