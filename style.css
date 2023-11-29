@@ -116,3 +116,20 @@ h3 {
     background-color: bisque;
     text-align: center;
 }
+@keyframes my-animation {
+    from {background-color: rgb(100, 118, 195);}
+    to {background-color:rgb(158, 140, 110) ;}
+}
+
+body {
+    animation: my-animation 2s alternate;
+}
+
+img {
+    width: 500px;
+    transition: 0.5s; 
+}
+
+img:active {
+    width:700px;
+}
