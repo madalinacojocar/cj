@@ -133,3 +133,37 @@ img {
 img:active {
     width:700px;
 }
+
+body {
+    padding: 20px;
+}
+
+.header {
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+    color:azure;
+    margin-bottom:10px
+}
+
+.content {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: blanchedalmond;
+    color:bisque;
+    padding:10px;
+
+}
+
+.bold {
+    text-transform: uppercase;
+    font-weight:900;
+    color:aquamarine
+}
